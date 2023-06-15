@@ -1,21 +1,13 @@
-import React, { useEffect, useState } from "react";
+
 import { FaFileAlt } from "react-icons/fa";
 
 const Career = () => {
-  const [careerData, setCareerData] = useState([]);
-
-  useEffect(() => {
-    fetch("./CareerData.JSON")
-      .then((res) => res.json())
-      .then((data) => setCareerData(data));
-  }, []);
+  
 
   return (
-    <div className="mx-10 mb-32 text-white md:mx-56">
+    <div className="w-full mt-[200px] text-white md:mx-56">
       <div
-        className={`${
-          isSmallScreen && "text-center"
-        } mb-10 items-center justify-between md:flex`}
+        className="mb-10 items-center justify-between md:flex"
       >
         <div>
           <h2 className="text-6xl font-bold ">
@@ -30,18 +22,7 @@ const Career = () => {
         </div>
       </div>
       <div className="md:flex" data-aos="fade-right" data-aos-duration="1000">
-        {careerData.map((career) => (
-          <div className="mb-6 md:mb-0 md:w-1/4" key={career.id}>
-            <div className="flex items-center">
-              <span className="text-blue">|</span>
-              <h5 className="pl-4 text-2xl font-bold">{career?.title}</h5>
-            </div>
-            <div className="ml-12 md:ml-5">
-              <p className="">{career?.designation}</p>
-              <p className="mt-2 text-dateGray">{career?.date}</p>
-            </div>
-          </div>
-        ))}
+
       </div>
     </div>
   );
