@@ -1,11 +1,12 @@
-import React from 'react';
+import logo from './../../assets/logo.svg';
+
 
 const NavBar: React.FC = () => {
   return (
-    <div className="w-full relative">
-      <div className="w-full text-white fixed py-6">
-        <img src="https://github.com/mrsyaban/personal-web/blob/694267d8df7d3d15af40c0306f308bd24f9a8444/src/assets/logo.svg" alt="rispek" />
-        ahlaao
+    <div className="w-full h-[200px] relative ">
+      <div className="z-10 h-[175px] text-black w-full fixed py-6 bg-gradient-to-b from-black ">
+        <img src={logo} alt="logo" style={{ width: '200px', height: 'auto' }} />
+        
       </div>
     </div>
   );

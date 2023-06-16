@@ -1,9 +1,5 @@
 
-import { FaFileAlt } from "react-icons/fa";
-
 const Career = () => {
-  
-
   return (
     <div className="w-full mt-[200px] text-white md:mx-56">
       <div
@@ -14,15 +10,51 @@ const Career = () => {
             Career <span className="text-3xl text-blue md:text-4xl">+</span>
           </h2>
         </div>
-        <div className="flex justify-center">
-          <button className="actionBtn mt-4 mb-4 flex items-center gap-14 border-b border-solid border-blue pb-2 md:mt-0 md:mb-0 md:gap-32">
-            Get CV
-            <FaFileAlt size={16} />
-          </button>
-        </div>
       </div>
       <div className="md:flex" data-aos="fade-right" data-aos-duration="1000">
 
+      </div>
+      <div className="md:flex flex-col space-y-9" data-aos="fade-right" data-aos-duration="1000">
+        <div className="mb-6 md:mb-0 md:w-1/4" >
+          <div className="flex items-center">
+            <span className="text-blue">|</span>
+            <h5 className="pl-4 text-2xl font-bold">GSIS</h5>
+          </div>
+          <div className="ml-12 md:ml-5">
+            <p className="">Web Developer</p>
+            <p className="mt-2 text-dateGray">May 2023 - Present</p>
+          </div>
+        </div>
+        <div className="mb-6 md:mb-0 md:w-1/4" >
+          <div className="flex items-center">
+            <span className="text-blue">|</span>
+            <h5 className="pl-4 text-2xl font-bold">GSIS</h5>
+          </div>
+          <div className="ml-12 md:ml-5">
+            <p className="">Web Developer</p>
+            <p className="mt-2 text-dateGray">May 2023 - Present</p>
+          </div>
+        </div>
+        <div className="mb-6 md:mb-0 md:w-1/4" >
+          <div className="flex items-center">
+            <span className="text-blue">|</span>
+            <h5 className="pl-4 text-2xl font-bold">GSIS</h5>
+          </div>
+          <div className="ml-12 md:ml-5">
+            <p className="">Web Developer</p>
+            <p className="mt-2 text-dateGray">May 2023 - Present</p>
+          </div>
+        </div>
+        <div className="mb-6 md:mb-0 md:w-1/4" >
+          <div className="flex items-center">
+            <span className="text-blue">|</span>
+            <h5 className="pl-4 text-2xl font-bold">GSIS</h5>
+          </div>
+          <div className="ml-12 md:ml-5">
+            <p className="">Web Developer</p>
+            <p className="mt-2 text-dateGray">May 2023 - Present</p>
+          </div>
+        </div>
       </div>
     </div>
   );
