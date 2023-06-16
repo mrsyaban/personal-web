@@ -3,13 +3,13 @@ import { FaFileAlt } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
-    <div className="flex relative  w-full">
-        <div className="z-20 w-[600px] absolute space-y-6 text-white mt-[220px] mr-0" >
-          <h2 className="text-3xl font-bold">Hello, it's me</h2>
-          <h1 className="text-4xl font-bold md:text-5xl">
-            Muhammad Rizky Sya'ban<span className="text-blue  text-7xl">.</span>
+    <div className="flex relative w-full">
+        <div className="z-20 w-[250px] xl:w-[560px] absolute  text-white mt-[230px] mr-0" >
+          <h2 className="text-3xl font-bold ">Hello, it's me</h2>
+          <h1 className="font-bold md:text-[50px] ">
+            Muhammad R. Sya'ban<span className=" text-blue">.</span>
           </h1>
-          <p className="text-justify text-base pb-2 text-lightGray">
+          <p className="text-justify text-base w-[300px] xl:w-[500px] pb-10 text-lightGray">
             An Undergraduate student in informatics engineering with a passion for
             entrepreneurship seeking opportunities to bring technical skills and
             innovative ideas to a startup. Proficient in programming, database
@@ -30,11 +30,11 @@ const AboutMe = () => {
             </button>
           </a>
         </div>
-      <div className='z-10 flex relative w-full content-end'>
+      <div className='z-10 xl:w-[900px] w-[500px] justify-self-end'>
         <img 
           src={profpic} 
-          className="ml-[400px] h-[600px] w-[900px]"
-          style={{ clipPath: 'inset(0% 26% 0% 30%)' }} 
+          className="ml-[100px] xl:ml-[290px] h-[570px] w-[300px]  xl:w-[900px] z-10 flex relative"
+          style={{ clipPath: 'inset(10% 26% 0% 30%)' }} 
           alt="prof"/>
       </div>
     </div>
