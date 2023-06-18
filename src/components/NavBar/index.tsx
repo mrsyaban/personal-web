@@ -8,16 +8,17 @@ const NavBar: React.FC = () => {
 
         <img src={logo} alt="logo" className='w-[200px] h-auto'/>
         
-        <div className='bg-transparent space-x-3 h-auto'>
-          <button className=''>
-            <FaLinkedin size={30}/>
-          </button>
-          <button>
+        <div className='flex bg-transparent pt-1 space-x-3 h-auto'>
+          <a href='https://www.linkedin.com/in/mrsyaban/' rel="noreferrer" target="_blank">
+              <FaLinkedin size={30}/>
+          </a>
+          <a href='https://www.instagram.com/mrsybn_/' rel="noreferrer" target="_blank">
+
             <FaInstagram size={30}/>
-          </button>
-          <button>
+          </a>
+          <a href='https://github.com/mrsyaban' rel="noreferrer" target="_blank">
             <FaGithub size={30}/>
-          </button>
+          </a>
         </div>
 
       </div>
