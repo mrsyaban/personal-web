@@ -18,7 +18,14 @@ const Projects = () => {
               rel="noreferrer" 
               target="_blank"
             >
-              <div className="mx-auto" >
+              
+              <div className="mx-auto" 
+                    style={{
+                      backgroundImage: "url('/src/assets/images/test.png')",
+                      backgroundRepeat: 'no-repeat',
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                    }}>
                   <h1 className="text-2xl font-bold">
                     <span className="text-blue">| </span>
                     ChatGPT Lite

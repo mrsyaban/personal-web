@@ -67,7 +67,7 @@ const Career = () => {
           </div>
           <div className="ml-12 md:ml-5">
             <p className=""><a href="https://www.linkedin.com/company/comlabs-usdi-itb/" >Comlabs-USDI ITB</a></p>
-            <p className="mt-2 text-dateGray">Sept 2023 - Dec 2022</p>
+            <p className="mt-2 text-dateGray">Sept 2022 - Dec 2022</p>
             <div className="mt-4">
               <p >
               Guide, assist, and score every test of first-year students on Introduction to Computing practice using Python programming language

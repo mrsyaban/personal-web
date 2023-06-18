@@ -7,7 +7,7 @@ import Contact from './components/Contacts';
 
 function App() {
   return (
-    <div className="flex flex-col items-center relative justify-center  mx-auto  w-[250px] lg:w-[700px] xl:w-[850px] md:w-[500px]">
+    <div className="flex flex-col items-center relative justify-center  mx-auto  w-[250px] lg:w-[700px] xl:w-[950px] md:w-[500px]">
       <NavBar />
       <AboutMe />
       <Projects />
