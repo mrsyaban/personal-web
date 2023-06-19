@@ -1,12 +1,12 @@
 
 const Career = () => {
   return (
-    <div className="w-full mt-[200px] mb-[100px] text-white md:mx-56">
+    <div className="w-full md:mt-[200px] mt-[100px] mb-[100px] text-white md:mx-56">
       <div
         className="mb-10 items-center justify-between md:flex"
       >
         <div>
-          <h2 className="text-6xl font-bold ">
+          <h2 className="md:text-6xl text-4xl font-bold ">
             Experience <span className="text-3xl text-blue md:text-4xl">+</span>
           </h2>
         </div>

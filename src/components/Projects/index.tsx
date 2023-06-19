@@ -14,18 +14,18 @@ import {TbBrandCSharp} from "react-icons/tb"
 
 const Projects = () => {
     return (
-        <div className="w-full mt-[150px] text-white items-start">
+        <div className="w-full md:mt-[150px] text-white items-start">
           <div
-            className="z-10 mb-[40px] flex flex-col items-start text-2xl"
+            className="z-10 mb-[40px] flex flex-col items-start md:text-2xl"
           >
-            <h2 className="text-6xl font-bold ">
+            <h2 className="md:text-6xl text-5xl font-bold ">
               Recent
               <br />
-              Projects <span className="text-4xl text-blue">+</span>
+              Projects <span className="text-blue">+</span>
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 gap-x-8 gap-y-14 w-[500px] xl:w-full h-auto mx-auto relative ">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-14 w-[250px] md:w-full h-auto mx-auto relative ">
             <a
               href="https://github.com/mrsyaban/ChatGPT-Lite" 
               rel="noreferrer" 
@@ -34,7 +34,7 @@ const Projects = () => {
             >
               <div className='h-full bg-gradient-to-t from-black opacity-70 hover:opacity-90 flex pl-6 pb-10 flex-col justify-end'>
                 <div className="flex justify-between pr-6">
-                  <h1 className="text-2xl font-bold ">
+                  <h1 className="md:text-2xl font-bold ">
                     <span className="text-blue">| </span>
                     ChatGPT Lite
                   </h1>
@@ -54,7 +54,7 @@ const Projects = () => {
             >
               <div className='h-full bg-gradient-to-t from-black opacity-70 hover:opacity-90 flex pl-6 pb-10 flex-col justify-end'>
                 <div className="flex justify-between pr-6">
-                  <h1 className="text-2xl font-bold">
+                  <h1 className="md:text-2xl font-bold">
                     <span className="text-blue">| </span>
                     Face Recognition App
                   </h1>
@@ -74,7 +74,7 @@ const Projects = () => {
             >
               <div className='h-full bg-gradient-to-t from-black opacity-70 hover:opacity-90 flex pl-6 pb-10 flex-col justify-end'>
                 <div className="flex justify-between pr-6">
-                  <h1 className="text-2xl font-bold">
+                  <h1 className="md:text-2xl font-bold">
                     <span className="text-blue">| </span>
                     Home Electricity App
                   </h1>
@@ -93,7 +93,7 @@ const Projects = () => {
             >
               <div className='h-full bg-gradient-to-t from-black opacity-70 hover:opacity-90 flex pl-6 pb-10 flex-col justify-end'>
                 <div className="flex justify-between pr-6">
-                  <h1 className="text-2xl font-bold">
+                  <h1 className="md:text-2xl font-bold">
                     <span className="text-blue">| </span>
                     Shortest Route Finder
                   </h1>
@@ -112,7 +112,7 @@ const Projects = () => {
             >
               <div className='h-full bg-gradient-to-t from-black opacity-70 hover:opacity-90 flex pl-6 pb-10 flex-col justify-end'>
                 <div className="flex justify-between pr-6">
-                  <h1 className="text-2xl font-bold">
+                  <h1 className="md:text-2xl font-bold">
                     <span className="text-blue">| </span>
                     BFS DFS Treasure Hunt
                   </h1>

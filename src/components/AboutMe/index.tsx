@@ -4,9 +4,9 @@ import { FaFileAlt } from "react-icons/fa";
 const AboutMe = () => {
   return (
     <div className="flex relative w-full">
-        <div className="z-20 w-[250px] xl:w-[400px] absolute  text-white mt-[180px] mr-0" >
-          <h2 className="text-3xl font-bold ">Hello, it's me</h2>
-          <h1 className="font-bold md:text-[65px] ">
+        <div className="z-20 w-[250px] xl:w-[400px] absolute  text-white xl:mt-[180px] mr-0 mt-[60px] md:justify-start align-middle" >
+          <h2 className="xl:text-3xl font-bold text-xl ">Hello, it's me</h2>
+          <h1 className="font-bold sm:text-[65px] text-[40px] ">
             M<span className=" text-blue">.</span>R<span className=" text-blue">. </span> Sya'ban
           </h1>
           <p className="text-justify text-base w-[250px] xl:w-full pb-10 text-lightGray">
@@ -29,10 +29,10 @@ const AboutMe = () => {
             </button>
           </a>
         </div>
-      <div className='z-10 xl:w-[900px] w-[500px] justify-self-end'>
+      <div className='z-10 xl:w-[900px] w-[500px] justify-self-end sm:opacity-100 opacity-0'>
         <img 
           src={profpic} 
-          className="ml-[100px] xl:ml-[250px] h-[570px] w-[300px]  xl:w-[900px] z-10 flex relative"
+          className="ml-[50px] sm:ml-[250px] h-[570px] w-[400px]  xl:w-[900px] z-10 flex relative"
           style={{ clipPath: 'inset(10% 26% 0% 30%)' }} 
           alt="prof"/>
       </div>
