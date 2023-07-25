@@ -100,7 +100,7 @@ const Contact = () => {
             <div className="flex flex-col">
               <input
                 type="text"
-                placeholder="Your Name"
+                placeholder="Your Name or Nick"
                 className="p-1 pl-2"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
