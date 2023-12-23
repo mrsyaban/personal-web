@@ -6,7 +6,10 @@ import {
   SiNumpy,
   SiChakraui,
   SiAxios,
-  SiVite
+  SiVite,
+  SiExpress,
+  SiPrisma,
+  SiPhp
 } from "react-icons/si";
 
 export const careerData = [
@@ -74,6 +77,17 @@ export const careerData = [
 ];
 
 export const projectData = [
+    {
+        title: 'Podcast App Project',
+        url: 'https://github.com/mrsyaban/wbd-client-spa',
+        image: "bg-[url('./assets/images/podcast.png')]",
+        tools: [
+            <FaReact size={25}/>,
+            <SiExpress size={25}/>,
+            <SiPrisma size={25}/>,
+            <SiPhp size={25}/>,
+        ],
+    },
     {
         title: 'EBSI Institute Profile Page',
         url: 'https://ebsinstitute.id/',
