@@ -15,8 +15,13 @@ module.exports = {
       },
       colors: {
         blue: "#58a6ff",
+        lightBlue: "#8ac0ff",
+        navbarBlue: "#6897BB",
         black: "#000",
         lightGray: "#999",
+      },
+      fontFamily: {
+        custom: ['YourCustomFont', 'sans-serif'],
       },
     },
   },

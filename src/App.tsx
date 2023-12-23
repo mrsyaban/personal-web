@@ -1,20 +1,39 @@
-import React from 'react';
-import AboutMe from './components/AboutMe';
-import NavBar from './components/NavBar';
-import Projects from './components/Projects';
-import Career from './components/Career';
-import Contact from './components/Contacts';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="flex flex-col items-center relative justify-center  mx-auto  w-[250px] lg:w-[700px] xl:w-[950px] md:w-[500px]">
-      <NavBar />
-      <AboutMe />
-      <Projects />
-      <Career/>
-      <Contact/>
-    </div>
-  );
-}
+import Homepage from './components/homepage';
+import NotFound from './components/not-found';
+import Root from './components/root';
+import ProjectsPage from './components/projects';
+import Blog from './components/blog';
+
+const App = () => {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Root />,
+      errorElement: <NotFound />,
+      children: [
+        {
+          path: '/',
+          element: <Homepage />
+        },
+        {
+          path: 'projects',
+          element: <ProjectsPage />
+        },
+        {
+          path: 'blog',
+          element: <Blog />
+        }
+      ]
+    },
+    {
+      path: '*',
+      element: <NotFound/>
+    }
+  ]);
+
+  return <RouterProvider router={router} />;
+};
 
 export default App;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectsPage = () => {
+const Blog = () => {
   return (
     <div className='h-screen bg-black text-blue flex justify-center items-center text-xl font-bold'>
         Coming Soon
@@ -8,4 +8,4 @@ const ProjectsPage = () => {
   )
 }
 
-export default ProjectsPage
+export default Blog
