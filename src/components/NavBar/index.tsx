@@ -29,7 +29,7 @@ const NavBar: React.FC = () => {
           />
         </Link>
 
-        <div className="flex text-navbarBlue font-semibold text-lg gap-5">
+        <div className="sm:flex text-navbarBlue font-semibold text-lg gap-5 hidden">
           <Link to="/projects" className="hover:text-blue">
             Projects
           </Link>
@@ -39,25 +39,6 @@ const NavBar: React.FC = () => {
         </div>
       </div>
 
-      {/* Button for small screens */}
-      <button
-        className="sm:hidden text-blue hover:text-blue"
-        onClick={toggleDropdown}
-      >
-        Menu
-      </button>
-
-      {/* Dropdown for small screens */}
-      {isDropdownOpen && (
-        <div className="sm:hidden flex flex-col bg-black text-blue mt-2">
-          <Link to="/projects" className="hover:text-blue py-2 px-4">
-            Projects
-          </Link>
-          <Link to="/blog" className="hover:text-blue py-2 px-4">
-            Blog
-          </Link>
-        </div>
-      )}
 
       <div className="flex bg-transparent pt-2 space-x-3 h-auto text-navbarBlue">
         <a
