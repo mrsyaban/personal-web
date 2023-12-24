@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo from './../../assets/logo.svg';
 import {FaLinkedin, FaInstagram, FaGithub} from 'react-icons/fa';
-import { useState } from 'react';
 
 const NavBar: React.FC = () => {
   const scrollToTop = () => { 
@@ -11,10 +10,12 @@ const NavBar: React.FC = () => {
     }); 
   };
 
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
+  const scrollToProjects = () => { 
+    const value = document.getElementById('proj-section')?.offsetTop; 
+    window.scrollTo({ 
+      top: value? value-100 : 0,  
+      behavior: 'smooth'
+    }); 
   };
 
   return (
@@ -30,8 +31,8 @@ const NavBar: React.FC = () => {
         </Link>
 
         <div className="sm:flex text-navbarBlue font-semibold text-lg gap-5 hidden">
-          <Link to="/projects" className="hover:text-blue">
-            Projects
+          <Link to="/" preventScrollReset={true} onClick={scrollToProjects} className='hover:text-blue hover:cursor-pointer'>
+              Projects
           </Link>
           <Link to="/blog" className="hover:text-blue">
             Blog

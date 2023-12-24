@@ -2,7 +2,7 @@ import { projectData } from "../../../database/data";
 
 const Projects = () => {
     return (
-        <div className="w-full text-white items-start">
+        <div className="w-full text-white items-start" id="proj-section">
           <div
             className="z-10 mb-[40px] flex flex-col items-start md:text-2xl"
           >
