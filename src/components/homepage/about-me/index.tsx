@@ -19,7 +19,7 @@ const AboutMe = () => {
         </p>
         <a 
           className="flex  justify-start " 
-          href="https://drive.google.com/file/d/1N_T3bGwpMeUpkQ7NaSP6J7jgikdQvEzs/view?usp=drive_link" 
+          href="https://drive.google.com/file/d/1iT-xcs3OR3-uhCq1FCxIGI-qRtxp0qQ4/view?usp=drive_link" 
           rel="noreferrer" 
           target="_blank"
         >

@@ -16,11 +16,12 @@ export const careerData = [
     {
         position: 'Fullstack Engineer Freelancer',
         company: 'EBSI Institute',
-        date: 'May 2023 - Present',
+        date: 'Dec 2023 - Present',
         description:
             [
-            'Collaborated with three team members to build a company profile, currently spanning two pages and still expanding.',
-            'Developed a responsive web app using React.js, Vite, and Shadcn for the styling.',
+            'Collaborated with three team members to construct a comprehensive company profile, currently extending to two pages for public viewing and five pages for administrative purposes, leveraging the MERN tech stack.',
+            'Created a responsive web application using React.js, Vite, and Shadcn for styling.',
+            "Developed a server for the admin dashboard using Express.js and implemented database storage using MongoDB.",
             'Established a CI/CD pipeline at Vercel and configured a custom domain for the website'
             ],
         link: 'https://www.ebsinstite.id',
