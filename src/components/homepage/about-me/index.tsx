@@ -12,11 +12,7 @@ const AboutMe = () => {
         </h1>
         <p className="text-justify text-base w-full pb-10 text-lightGray">
           <span className='font-semibold text-lightBlue'>Muhammad Rizky Sya'ban</span> is an Undergraduate student in informatics engineering at &nbsp;
-          <a href="https://www.itb.ac.id/" className='font-semibold text-lightBlue hover:text-slate-300'>Bandung Institute of Technology</a>  with a passion for
-          entrepreneurship. Proficient in fullstack development, database
-          management, and machine learning. Aiming to disrupt
-          industries and bring new solutions to market through creative
-          problem-solving and teamwork.
+          <a href="https://www.itb.ac.id/" className='font-semibold text-lightBlue hover:text-slate-300'>Bandung Institute of Technology</a>, Results-driven Software Engineer and Data Scientist specializing in Machine Learning, Computer Vision, Large Language Models, and Generative AI. Skilled in developing AI solutions that extract valuable insights from complex data. Proven collaborator with cross-functional teams, leveraging cutting-edge technologies to address real-world challenges. Committed to continuous learning and advancing AI innovation. Open to opportunities to apply technical expertise and creativity to impactful projects.
         </p>
         <div className='flex flex-row gap-12'>
           <a 

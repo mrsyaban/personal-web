@@ -26,7 +26,7 @@ const Award = () => {
                 </div>  
                 <div className="mt-4">
                     {
-                    <ul className="list-disc list-outside pl-4">
+                    <ul className="list-disc list-outside pl-10">
                         {item.description.map((item, index) => (
                         <li key={index}>{item}</li>
                         ))}

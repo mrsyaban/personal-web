@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 body {
-  margin:0;
-  background: black;
-  font-family: "Roboto", sans-serif;
-  justify-items: center;
+  margin: 0;
+  background-color: black; /* Chakra uses descriptive names for colors */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: flex; /* Chakra prefers flexbox/grid for layout */
+  justify-content: center;
   align-items: center;
 }

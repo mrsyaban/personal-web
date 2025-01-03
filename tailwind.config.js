@@ -18,6 +18,7 @@ module.exports = {
         lightBlue: "#8ac0ff",
         navbarBlue: "#6897BB",
         black: "#000",
+        darkGray: "#0e0f11",
         lightGray: "#999",
       },
       fontFamily: {

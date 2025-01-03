@@ -12,6 +12,86 @@ import {
   SiPhp
 } from "react-icons/si";
 
+const tools = {
+    "Express.js": "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+    "NestJS": "https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white",
+    "Deno JS": "https://img.shields.io/badge/deno%20js-000000?style=for-the-badge&logo=deno&logoColor=white",
+    "Bun": "https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white",
+    "Django": "https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white",
+    "Flask": "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white",
+    "FastAPI": "https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi",
+    "Spring": "https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white",
+    "Sequelize": "https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white",
+    "Prisma": "https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white",
+    "JWT": "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
+    "Strapi": "https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white",
+    "jQuery": "https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white",
+    "Webpack": "https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black",
+    "React.js": "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+    "Vite": "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white",
+    "Next JS": "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+    "Ant-Design": "https://img.shields.io/badge/-AntDesign-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white",
+    "Chakra": "https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white",
+    "MUI": "https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white",
+    "React Hook Form": "https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white",
+    "React Query": "https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white",
+    "React Router": "https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white",
+    "TailwindCSS": "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white",
+    "WebGL": "https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge",
+    "Python": "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+    "R": "https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white",
+    "C++": "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
+    "C#": "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white",
+    "C": "https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white",
+    "Java": "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white",
+    "Kotlin": "https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white",
+    "Haskell": "https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white",
+    "HTML5": "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+    "CSS": "https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white",
+    "JavaScript": "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+    "TypeScript": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+    "Go": "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white",
+    "PHP": "https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white",
+    "MySQL": "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white",
+    "Postgres": "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+    "MariaDB": "https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white",
+    "SQLite": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white",
+    "MongoDB": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+    "Redis": "https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white",
+    "Firebase": "https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white",
+    "Amazon DynamoDB": "https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white",
+    "Couchbase": "https://img.shields.io/badge/Couchbase-EA2328?style=for-the-badge&logo=couchbase&logoColor=white",
+    "Apache Cassandra": "https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white",
+    "Neo4J": "https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white",
+    "ElasticSearch": "https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch",
+    "Docker": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
+    "Heroku": "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white",
+    "Google Cloud": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white",
+    "AWS": "https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white",
+    "Azure": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
+    "DigitalOcean": "https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white",
+    "GitLab": "https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white",
+    "Postman": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white",
+    "Jira": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white",
+    "Confluence": "https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white",
+    "Trello": "https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white",
+    "Figma": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
+    "Canva": "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white",
+    "Apache": "https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white",
+    "Apache Tomcat": "https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black",
+    "Nginx": "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white",
+    "Yarn": "https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white",
+    "Android Studio": "https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white",
+    "OpenCV": "https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white",
+    "TensorFlow": "https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white",
+    "Keras": "https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white",
+    "PyTorch": "https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white",
+    "NumPy": "https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white",
+    "Pandas": "https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white",
+    "scikit-learn": "https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white",
+    "Tkinter": "https://img.shields.io/badge/Tkinter-%23FF4500.svg?style=for-the-badge&logo=python&logoColor=white",
+    "PyQt": "https://img.shields.io/badge/PyQt-%2300C853.svg?style=for-the-badge&logo=qt&logoColor=white",
+};
 export const careerData = [
     {
         position: 'Fullstack Engineer Freelancer',
@@ -80,6 +160,13 @@ export const careerData = [
 export const projectData = [
     {
         title: 'Podcast App Project',
+        desc: [
+            'Developed a podcast web application include a premium and regular user feature using REST and SOAP Protocol',
+            'The regular user application build with monolithic PHP \'Vanilla\'',
+            'The premium user application build with React, Vite, Typescript, and Tailwind',
+            'Implemented Docker to orchestrate and run all services simultaneously across environments',
+            'Written in ~14,000 LOC within 5 different repositories (50% Php, 40% Javascript, 10% Java)'
+        ],
         url: 'https://github.com/mrsyaban/wbd-client-spa',
         image: "bg-[url('./assets/images/podcast.png')]",
         tools: [
@@ -88,18 +175,56 @@ export const projectData = [
             <SiPrisma size={25}/>,
             <SiPhp size={25}/>,
         ],
+        toolsPatch: [
+            tools["Express.js"],
+            tools["React.js"],
+            tools["Vite"],
+            tools["JWT"],
+            tools["Prisma"],
+            tools["TailwindCSS"],
+            tools["PHP"],
+            tools["Java"],
+            tools["TypeScript"],
+            tools["MySQL"],
+            tools["Docker"],
+            tools["Postman"],
+            tools["GitLab"],
+        ]
     },
     {
         title: 'EBSI Institute Profile Page',
+        desc: [
+            "Developed a comprehensive company profile website using the MERN (MongoDB, Express, React, Node) tech stack, delivering a dynamic and user-friendly platform",
+            "Built an admin dashboard feature for company administrators to easily manage website content, including adding and updating events and articles.",
+            "Established a continuous deployment pipeline using Vercel.",
+        ],
         url: 'https://ebsinstitute.id/',
         image: "bg-[url('./assets/images/ebsi.png')]",
         tools: [
             <FaReact size={25}/>,
             <SiVite size={25}/>
         ],
+        toolsPatch: [
+            tools["Express.js"],
+            tools["React.js"],
+            tools["Vite"],
+            tools["Prisma"],
+            tools["MongoDB"],
+            tools["TypeScript"],
+            tools["Postman"],
+            tools["TailwindCSS"],
+        ]
     },
     {
         title: 'ChatGPT Lite',
+        desc: [
+            'The application is a basic chatbot leveraging Knuth-Morris-Pratt (KMP) and Boyer-Moore (BM) string matching algorithms to find the closest match to user questions from a predefined database.',
+            'Regex is used to ensure that questions conform to specific formats.',
+            'If an exact match for the user\'s question is found using KMP or BM, the chatbot provides the corresponding answer',
+            'If no exact match is found, it looks for the most similar question with at least 90% similarity',
+            'If no question meets the 90% threshold, the chatbot offers the user up to 3 closest matches to choose from',
+            'The application is built using React and Tailwind CSS for the frontend and Next.js for the backend, providing a modern, responsive, and dynamic web-based interface.'
+        ],
         url: 'https://github.com/mrsyaban/ChatGPT-Lite',
         image: "bg-[url('./assets/images/chatgptlite.png')]",
         tools: [
@@ -107,9 +232,21 @@ export const projectData = [
             <SiTailwindcss size={25}/>,
             <SiAxios size={25}/>
         ],
+        toolsPatch: [
+            tools["Next JS"],
+            tools["React.js"],
+            tools["TypeScript"],
+            tools["TailwindCSS"],
+        ]
     },
     {
         title: 'Face Recognition App',
+        desc: [
+            'Build a desktop app to recognize a faces in dataset by comparing the eigen vector with query image.',
+            'The Eigenfaces method for face recognition utilizes Principal Component Analysis (PCA) to reduce the dimensionality of facial images, identifying key features that capture the most variance among different faces',
+            'By projecting new face images onto this reduced feature space, the system can compare them to known faces and determine the closest match, effectively recognizing the individual.',
+            'Algorithm reference:\n https://www.geeksforgeeks.org/ml-face-recognition-using-eigenfaces-pca-algorithm/'
+        ],
         url: 'https://github.com/mrsyaban/EigenFace-Recognition',
         image: "bg-[url('./assets/images/face_recognition.png')]",
         tools: [
@@ -117,23 +254,55 @@ export const projectData = [
             <SiOpencv size={25}/>,
             <SiNumpy size={25}/>
         ],
+        toolsPatch: [
+            tools["Python"],
+            tools["OpenCV"],
+            tools["NumPy"],
+            tools["Tkinter"],
+
+        ]
     },
     {
         title: 'Shortest Route Finder',
+        desc: [
+            'This project is a program designed to find the shortest path in a graph, where the graph is generated from an input file. The input file is a JSON file containing an adjacency matrix and coordinates for each node. Node IDs always start from 1 and increment sequentially',
+            'Users specify the start and target nodes for which they want to find the shortest path based on graph labels displayed. They then select the algorithm to compute the shortest path and click the "run" button to initiate the calculation',
+            'The program calculates and displays the shortest path in the graph, highlighting the path in green for easy visualization',
+        ],
         url: 'https://github.com/mrsyaban/Shortest-route-finder',
         image: "bg-[url('./assets/images/shortest_route.png')]",
         tools: [
             <FaReact size={25}/>,
             <SiChakraui size={25}/>
         ],
+        toolsPatch: [
+            tools["React.js"],
+            tools["Chakra"],
+            tools["JavaScript"]
+        ]
     },
 ]
 
 export const awardsData = [
     {
+        title: 'Student Award Winner AI Innovation Challenge of Compfest 16',
+        description: [
+            'Achieved top 2% ranking out of 212 teams in developing an AI-based solution to address the shortage of digital talent in Indonesia.',
+            'The competition held by Faculty of Computer Science University of Indonesia',
+        ],
+    },
+    {
+        title: '2nd Winner of Web Development Competition of IFEST',
+        description: [
+            'Developing a web-based solution that leverages AI to help job seekers land their dream jobs.',
+            'The competition held by Padjadjaran University'
+        ],
+    },
+    {
         title: 'Finalist of Data Analytics Dash of Compfest 15',
         description: [
             'Tackling 65 SQL-related questions using PostgreSQL within a 4-hour time limit and become Top 1 among the top 15 out of 700 teams from across Indonesia in preliminary phase. and present tableau dashboard in final round',
+            'The competition held by Faculty of Computer Science University of Indonesia',
         ],
     },
     {
@@ -149,3 +318,4 @@ export const awardsData = [
         ],
     },
 ]
+

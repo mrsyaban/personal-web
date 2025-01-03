@@ -18,8 +18,8 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="flex h-fit xl:w-[1100px] w-full lg:w-[750px] md:w-[550px] z-40 mx-auto fixed top-0 left-0 right-0 justify-between pt-5 pb-2 bg-black px-6 sm:px-0">
-      <div className="flex self-start items-center gap-10">
+    <nav className="flex flex-col h-fit w-3/4 lg:w-[700px] md:w-[500px] xl:w-[1050px] z-40 mx-auto fixed top-0 left-0 right-0 px-6 sm:px-0">
+      <div className="flex self-start items-center gap-10 w-full justify-between bg-black pt-5 pb-2">
         <Link to="/">
           <img
             src={logo}
@@ -38,7 +38,7 @@ const NavBar: React.FC = () => {
           </Link>
         </div>
       </div>
-
+      <div className="flex w-full h-32 xl:h-16 bg-gradient-to-b from-black to-transparent"/>
 
     </nav>
   );

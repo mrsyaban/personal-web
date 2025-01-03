@@ -50,8 +50,8 @@ const Contact = () => {
             <br />
             let's collaborate! Contact me at
               {' '}
-            <a href="mailto:13521119@std.stei.itb.ac.id" className="font-bold text-white hover:underline hover:text-lightBlue hover:underline-offset-1">
-              13521119@std.stei.itb.ac.id
+            <a href="mailto:mrizkysyaban99@gmail.com" className="font-bold text-white hover:underline hover:text-lightBlue hover:underline-offset-1">
+              mrizkysyaban99@gmail.com
             </a>{' '}
             <br />
             Still new to this stuff but looking for an opportunity to

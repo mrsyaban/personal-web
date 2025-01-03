@@ -35,7 +35,7 @@ const Career = () => {
               <p className="mt-2 text-dateGray">{item.date}</p>
               <div className="mt-4">
                 {
-                  <ul className="list-disc list-outside pl-4">
+                  <ul className="list-disc list-outside pl-6">
                     {item.description.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
