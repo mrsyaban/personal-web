@@ -51,9 +51,9 @@ const ProjectDetails = ({
               ))}
             </ul>
           </div>
-          <div className="flex flex-wrap items-center py-4 mt-8">
+          <div className="flex flex-wrap items-center py-4 mt-8 gap-0">
             {modalData.toolsPatch.map((tool: any, index: any) => (
-              <div key={index} className="flex items-center mr-2">
+              <div key={index} className="flex items-center">
                 <img src={tool} alt="" className="w-auto h-6" />
               </div>
             ))}

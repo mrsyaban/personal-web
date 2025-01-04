@@ -24,7 +24,7 @@ const Career = () => {
               <span className="text-blue">|</span>
               <h5 className="pl-4 text-2xl font-bold">{item.position}</h5>
             </div>
-            <div className="ml-12 md:ml-5">
+            <div className="ml-5 md:ml-5">
               {item.link && (
                 <a href={item.link} className=' underline underline-offset-4 hover:opacity-70'>
                   {item.company} ({item.date})

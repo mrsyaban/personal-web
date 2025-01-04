@@ -14,7 +14,7 @@ const AboutMe = () => {
           <span className='font-semibold text-lightBlue'>Muhammad Rizky Sya'ban</span> is a final year undergrad student in informatics engineering at &nbsp;
           <a href="https://www.itb.ac.id/" className='font-semibold text-lightBlue hover:text-slate-300'>Bandung Institute of Technology</a>, a results-driven Software Engineer and Data Scientist lately passionate in Machine Learning, Computer Vision, Large Language Models, and Generative AI. Skilled in developing AI solutions that extract valuable insights from complex data. Proven collaborator with cross-functional teams, leveraging cutting-edge technologies to address real-world challenges. Committed to continuous learning and advancing AI innovation. Open to opportunities to apply technical expertise and creativity to impactful projects.
         </p>
-        <div className='flex flex-row gap-12'>
+        <div className='flex flex-col sm:flex-row gap-6 sm:gap-12'>
           <a 
             className="flex  justify-start" 
             href="./CV_Muhammad-Rizky-Sya'ban.pdf" 

@@ -6,10 +6,10 @@ import Contact from './contacts';
 
 function Homepage() {
   return (
-    <div className="flex flex-col gap-y-32 items-center relative justify-center  mx-auto  w-3/4 lg:w-[700px] md:w-[500px] xl:w-[1050px]">
+    <div className="flex flex-col gap-y-16 sm:gap-y-32 items-center relative justify-center">
       <AboutMe />
-      <Career />
       <Projects />
+      <Career />
       <Award />
       <Contact />
     </div>

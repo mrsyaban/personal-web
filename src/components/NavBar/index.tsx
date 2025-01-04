@@ -18,8 +18,8 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="flex flex-col h-fit w-3/4 lg:w-[700px] md:w-[500px] xl:w-[1050px] z-40 mx-auto fixed top-0 left-0 right-0 px-6 sm:px-0">
-      <div className="flex self-start items-center gap-10 w-full justify-between bg-black pt-5 pb-2">
+    <nav className="flex flex-col h-fit w-full z-40 fixed top-0">
+      <div className="flex self-start items-center gap-10 w-full px-6 sm:px-2 justify-between bg-black pt-5 pb-2">
         <Link to="/">
           <img
             src={logo}

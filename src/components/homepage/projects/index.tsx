@@ -26,20 +26,20 @@ const Projects = () => {
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-14 w-[250px] md:w-full h-auto mx-auto relative">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-14 w-full h-auto relative">
         {projectData.map((item, index) => (
           <div
             key={index}
             onClick={() => openModal(item)} // Open modal on click
-            className={`${item.image} bg-cover rounded-lg aspect-[16/9] cursor-pointer`}
+            className={`${item.image} bg-cover rounded-lg aspect-[16/9] cursor-pointer hover:scale-105` }
           >
-            <div className="h-full bg-gradient-to-t from-black opacity-70 hover:opacity-90 flex pl-6 pb-10 flex-col justify-end">
-              <div className="flex justify-between pr-6">
-                <h1 className="md:text-2xl font-bold">
+            <div className="h-full bg-gradient-to-t from-black opacity-100 flex flex-col justify-end w-full outline-2 ">
+              <div className="flex justify-between pr-6 pl-2 sm:pl-6 pb-4 sm:pb-10">
+                <h1 className="text-lg md:text-2xl font-bold">
                   <span className="text-blue">| </span>
                   {item.title}
                 </h1>
-                <div className="pt-2 flex space-x-2">{item.tools}</div>
+                <div className="flex gap-x-2 flex-row items-center">{item.tools}</div>
               </div>
             </div>
           </div>

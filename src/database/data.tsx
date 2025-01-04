@@ -8,7 +8,6 @@ import {
   SiAxios,
   SiVite,
   SiExpress,
-  SiPrisma,
   SiPhp
 } from "react-icons/si";
 
@@ -203,8 +202,8 @@ export const projectData = [
         title: 'Podcast App Project',
         desc: [
             'Developed a podcast web application include a premium and regular user feature using REST and SOAP Protocol',
-            'The regular user application build with monolithic PHP \'Vanilla\'',
-            'The premium user application build with React, Vite, Typescript, and Tailwind',
+            'The regular user application build with monolithic PHP \'Vanilla\' while the premium user application build with React, Vite, Typescript, and Tailwind',
+            'There are three server web service: PHP and Express.js using HTTP Protocol, and JAX WS using SOAP Protocol.',
             'Implemented Docker to orchestrate and run all services simultaneously across environments',
             'Written in ~14,000 LOC within 5 different repositories (50% Php, 40% Javascript, 10% Java)'
         ],
@@ -213,7 +212,6 @@ export const projectData = [
         tools: [
             <FaReact size={25}/>,
             <SiExpress size={25}/>,
-            <SiPrisma size={25}/>,
             <SiPhp size={25}/>,
         ],
         toolsPatch: [
