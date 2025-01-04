@@ -26,11 +26,9 @@ const Career = () => {
             </div>
             <div className="ml-12 md:ml-5">
               {item.link && (
-                <p>
-                  <a href={item.link}>
-                    {item.company} ({item.date})
-                  </a>
-                </p>
+                <a href={item.link} className=' underline underline-offset-4 hover:opacity-70'>
+                  {item.company} ({item.date})
+                </a>
               )}
               <p className="mt-2 text-dateGray">{item.date}</p>
               <div className="mt-4">

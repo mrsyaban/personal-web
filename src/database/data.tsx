@@ -94,9 +94,48 @@ const tools = {
 };
 export const careerData = [
     {
+        position: 'Machine Learning Cohort',
+        company: 'Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka',
+        date: 'Sept 2024 - Present',
+        description:
+            [
+            'Selected as one of 4,636 students (≈10%) out of over 45,000 applicants across Indonesia for an intensive Machine Learning program.',
+            'Completed 25+ online courses along with three specializations in data analysis, machine learning, deep learning, and generative AI.',
+            'Developed a final project application that connects UMKM (micro, small, and medium enterprises) with investors, facilitating funding opportunities for UMKM businesses and incorporating an AI-powered recommendation system.',
+            ],
+        link: 'https://www.youtube.com/watch?v=Utn2ijPi5uo',
+    },
+    {
+        position: 'Software Engineer Intern',
+        company: 'NalaGenetics',
+        date: 'Jun 2024 - Aug 2024',
+        description:
+            [
+                'Provided continuous support and maintenance for software that delivers end-to-end automation of the company\'s business processes, ensuring smooth operations and efficiency',
+                'Worked within a full Scrum methodology using Jira to manage the development and maintenance of Clinical Decision Support (CDS) systems, utilizing MEAN stack technology',
+                'Contributed to migrating legacy code to a newly designed, well-structured backend architecture, improving system efficiency and scalability',
+                'Implemented 100% code coverage through unit testing for every new feature, ensuring robust functionality, reliability, and high-quality code',
+                'Tech used: angular, express, node.js, mongodb, mysql, sonarcloud, mocha, chai, cypress, busboy, Sonarlint, Amazon S3, grafana, Amazon SQS',
+            ],
+        link: 'https://nalagenetics.com/',
+    },
+    {
+        position: 'Frontend Engineer Intern',
+        company: 'Thinkspedia',
+        date: 'Mar 2024 - Jul 2024',
+        description:
+            [
+             'Designed and implemented a school employee management system from scratch using Hexagonal Architecture with Next.js, ensuring a clean and maintainable code structure',
+             'Leveraged Inversify for dependency injection, creating a modular and scalable codebase to enhance system flexibility and performance',
+             'Developed an internal employee management website using Next.js, optimizing functionality and user experience for seamless internal operations',
+             'Implemented responsive and modular UI components using Tailwind CSS and Shadcn, ensuring a flexible and adaptive user interface across devices',
+            ],
+        link: 'https://thinkspedia.com/',
+    },
+    {
         position: 'Fullstack Engineer Freelancer',
         company: 'EBSI Institute',
-        date: 'Dec 2023 - Present',
+        date: 'Dec 2023 - Feb 2024',
         description:
             [
             'Collaborated with three team members to construct a comprehensive company profile, currently extending to two pages for public viewing and five pages for administrative purposes, leveraging the MERN tech stack.',
@@ -115,17 +154,17 @@ export const careerData = [
             'Built interactive attendance page for OSKM ITB participant using tRPC(Typesafety Remote Procedural Call) API and ChakraUI component.',
             'Built merchandise page for admin side with search bar to find students by their NIM'
         ],
-            link: 'https://www.linkedin.com/company/comlabs-usdi-itb/',
+            link: 'https://github.com/KATITB2023',
     },
     {
         position: 'Frontend Engineer',
         company: 'Ganesha Student Innovation Summit',
-        date: 'May 2023 - June 2023',
+        date: 'May 2023 - Jun 2023',
         description:[
             'Collaborate with multidisciplinary team of developers, designers, and stakeholders to create innovative web applications for five GSIS event',
             'Build and optimize front-end systems including jwt authentication and two side dashboard using React.js, Vite, and Tailwind'
         ],
-            link: 'https://www.linkedin.com/company/comlabs-usdi-itb/',
+            link: 'https://www.linkedin.com/company/ganesha-student-innovation-summit/',
     },
     {
         position: 'Back End Engineer',
@@ -135,16 +174,18 @@ export const careerData = [
         'Build and developing website of parade wisuda ITB include graduates projects showcase and provide all of information of parade wisuda ITB',
         'Collaborate with team of developers to build the website using express.js and deploy it in cPanel'
         ],
-        link: 'https://www.linkedin.com/company/comlabs-usdi-itb/',
+        link: 'https://www.instagram.com/paradewisudaitb/',
     },
     {
-        position: 'Controls Engineer',
+        position: 'Programmer',
         company: 'Viva La Ganesha',
-        date: 'Mar 2022 - Present',
+        date: 'Mar 2022 - Jan 2024',
         description: [
-        'Collaborate with multidisciplinary team to build a hexapod robot.',
+        'Collaborated with a diverse team of engineers, designers, and programmers to design and assemble a functional hexapod robot, leveraging each member\'s expertise to ensure seamless integration of components.',
+        'Developed and implemented sophisticated control algorithms that enable the hexapod to navigate complex terrains with stability and precision.',
+        'Integrated sensor systems and adaptive logic to enhance the robot\'s responsiveness and autonomy, allowing it to perform tasks efficiently in various environments',
         ],
-        link: 'https://www.linkedin.com/company/comlabs-usdi-itb/',
+        link: 'https://www.instagram.com/vivalaganesha/?hl=en',
     },
     {
         position: 'Computer Lab Assistant',

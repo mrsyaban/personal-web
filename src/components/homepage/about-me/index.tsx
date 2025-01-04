@@ -1,6 +1,6 @@
 import profpic from './../../../assets/propil.svg';
 import { FaFileAlt } from "react-icons/fa";
-import {FaLinkedin, FaInstagram, FaGithub} from 'react-icons/fa';
+import {FaLinkedin, FaInstagram, FaGithub, FaKaggle} from 'react-icons/fa';
 
 const AboutMe = () => {
   return (
@@ -11,8 +11,8 @@ const AboutMe = () => {
           M<span className=" text-blue">.</span>R<span className=" text-blue">.</span> Sya'ban
         </h1>
         <p className="text-justify text-base w-full pb-10 text-lightGray">
-          <span className='font-semibold text-lightBlue'>Muhammad Rizky Sya'ban</span> is an Undergraduate student in informatics engineering at &nbsp;
-          <a href="https://www.itb.ac.id/" className='font-semibold text-lightBlue hover:text-slate-300'>Bandung Institute of Technology</a>, Results-driven Software Engineer and Data Scientist specializing in Machine Learning, Computer Vision, Large Language Models, and Generative AI. Skilled in developing AI solutions that extract valuable insights from complex data. Proven collaborator with cross-functional teams, leveraging cutting-edge technologies to address real-world challenges. Committed to continuous learning and advancing AI innovation. Open to opportunities to apply technical expertise and creativity to impactful projects.
+          <span className='font-semibold text-lightBlue'>Muhammad Rizky Sya'ban</span> is a final year undergrad student in informatics engineering at &nbsp;
+          <a href="https://www.itb.ac.id/" className='font-semibold text-lightBlue hover:text-slate-300'>Bandung Institute of Technology</a>, a results-driven Software Engineer and Data Scientist lately passionate in Machine Learning, Computer Vision, Large Language Models, and Generative AI. Skilled in developing AI solutions that extract valuable insights from complex data. Proven collaborator with cross-functional teams, leveraging cutting-edge technologies to address real-world challenges. Committed to continuous learning and advancing AI innovation. Open to opportunities to apply technical expertise and creativity to impactful projects.
         </p>
         <div className='flex flex-row gap-12'>
           <a 
@@ -54,6 +54,14 @@ const AboutMe = () => {
               className="hover:text-blue"
             >
               <FaGithub size={30} />
+            </a>
+            <a
+              href="https://www.kaggle.com/muhammadrizkysyaban"
+              rel="noreferrer"
+              target="_blank"
+              className="hover:text-blue"
+            >
+              <FaKaggle size={30} />
             </a>
           </div>
         </div>
